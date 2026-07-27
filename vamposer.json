@@ -1,11 +1,11 @@
 {
   "dependencies" : {
-    "ValaFoundation/cache-manager" : "master",
-    "ValaFoundation/downloader-lib" : "master",
-    "ValaFoundation/finder" : "master"
+    "ValaTux/cache-manager" : "master",
+    "ValaTux/downloader-lib" : "master",
+    "ValaTux/finder" : "master",
+    "ValaTux/testcases" : "master"
   },
   "dependencies-dev" : {
-    "ValaFoundation/testcases" : "master"
   },
   "system_dependencies" : {
     "gtk4" : "*",

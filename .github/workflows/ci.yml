@@ -41,7 +41,7 @@ jobs:
             libadwaita-devel
 
       - name: Setup Vamposer
-        uses: ValaFoundation/vamposer@master
+        uses: ValaTux/vamposer@master
         with:
           version: latest
 

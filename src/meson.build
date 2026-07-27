@@ -23,7 +23,6 @@ deps = [
     dependency('glib-2.0'),
     dependency('libsoup-3.0'),
     dependency('libadwaita-1', version: '>= 1.9'),
-    vamposer_deps,
     meson.get_compiler('c').find_library('m', required : false),
 ]
 
@@ -46,7 +45,7 @@ executable(
     reponame,
     resources,
     sources_app,
-    dependencies: deps,
+    dependencies: [deps, vamposer_deps],
     link_with: app_lib,
     include_directories : config_inc,
     vala_args: ['--pkg', 'libadwaita-1'],
